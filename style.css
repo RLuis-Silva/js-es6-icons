@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+    color: #0091ff;
+    padding: 15px;
+    background-color: white;
+}
+
+
+.ricerca{
+    text-align: center;
+    padding: 15px;
+    background-color: #0091ff;
+    color: white;
+}
+
+.ricerca label {
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.icone{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: grey; /*debug*/
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.icone .icona{
+    flex-basis: calc(100% / 6 - 10px); /*-10px è lo spazio tra i box */
+    margin-right: 10px;
+    margin-top: 30px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 10%;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.icone .icona i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
