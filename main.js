@@ -102,8 +102,21 @@ $(document).ready(function(){
         },
     ];
 
+    // riferimento DOM .icone
+    var boxContenitore = $('.icone');
 
+    stampaIcone(icons, boxContenitore);
 
 
 
 }) // fine documento ready
+
+
+
+
+/**
+ * ARRIVATO QUI, MERDA INIZIA DA QUIIIIIII
+ */
+
+ // la funzione stampa in output le icone
+// function stampaIcone(arrayIcone, box){}
